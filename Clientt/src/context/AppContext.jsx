@@ -35,7 +35,7 @@ export const AppContextProvider = (props)=>{
       const calculateRating = (course)=>{
         if(course.courseRatings.length===0){
             return 0;
-        }
+        } 
         let totalRating = 0
         course.courseRatings.forEach(rating => {
             totalRating += rating.rating
